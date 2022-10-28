@@ -1,0 +1,20 @@
+/* Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Import Components */
+@import url(components/button.css);
+@import url(components/panel.css);
+@import url(components/flag.css);
+
+/* Import Layouts */
+@import url(layouts/teams.css);
+
+* {
+  margin: 0 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+}
+
+

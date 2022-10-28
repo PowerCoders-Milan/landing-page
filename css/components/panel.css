@@ -1,0 +1,29 @@
+.panel {
+  height: 100vh;
+}
+
+#hero {
+  background-image: url(https://images.unsplash.com/photo-1527871369852-eb58cb2b54e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3131&q=80);
+  /* padding: 100px 20px; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  background-color: #000000b0;
+  justify-content: center;
+  align-items: center;
+  background-blend-mode: color;
+  color: #ffff9d;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.panel-img {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
